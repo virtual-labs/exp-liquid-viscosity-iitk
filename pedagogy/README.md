@@ -90,9 +90,9 @@ Sr. No |	Learning Objective	| Task to be performed by <br> the student  in the s
 
 Sr.No | What Students will do? |	What Simulator will do?	| Purpose of the task
 :--|:--|:--|:--:
-1.| Simulator will allow student <br>to make experimental setup <br>and will alert him in case of wrong setup made. | Student will drag the components to the
-rectangular box to
-complete the circuit.  | 
-2.| Activity description <br> next line <br> next line | Click on the ‘Activity description <br> next line  '  | Describe the purpose in detail.
-3.| Activity description <br> next line <br> next line | Click on the ‘Activity description <br> next line  '  | Describe the purpose in detail.
-4.| Activity description <br> next line <br> next line | Click on the ‘Activity description <br> next line  '  | Describe the purpose in detail.
+1.| Simulator will allow student to make experimental setup and will alert him in case of wrong setup made. | Student will slide the power button of the simulator to ON position. | To initiate the simulator 
+2.| Simulator will show the green light indicating that the simulator is ready for use.  | Student will choose the desired material and radius of the ball and liquid.  | To set the experimental parameters.
+3.| Simulator will show the time of falling ball in the liquid. | Student will mention these values in the table and calculate terminal velocity.  | To calculate terminal velocity.
+4.| Simulator will calculate terminal velocity values corresponding to each current value entered in the Table. | Student will press calculate viscosity button.  | To calculate viscosity of liquid.
+5.| Simulator will calculate viscosity of the liquid. | Student will click on the calculate percentage error button.  | To note the value of the terminal velocity and calculate the coefficient of viscosity for a given liquid and also to calculate the percentage error with the standard value.
+6.| Simulator will calculate the Percentage error in the observation. | Student will change the liquid and will repeat the experiment  | To note the value of the terminal velocity and calculate the coefficient of viscosity for a given liquid and also to calculate the percentage error with the standard value.
