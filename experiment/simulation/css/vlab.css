@@ -1,0 +1,95 @@
+.d1
+{
+	margin: auto;
+	height: 700px;
+	width : 1400px;
+	border: 20px solid black ;
+	border-color: black;
+	background: #fff1e0;
+
+}
+
+h1
+{
+	text-align: center;
+}
+
+.d2
+{
+	align-items:center; 
+	margin:0px 10px 10px auto;
+	height: 500px;
+	width : 360px;
+	border: 2px solid black ;
+	background:#dde9af;
+}
+.button {
+  background-color: #4CAF50;
+  border:3px solid #0f6b13;
+  border-radius: 10px;
+  color: white;
+  padding: 7px 25px;
+  text-align: center;
+  text-decoration: none;
+  display:block;
+  font-size: 16px;
+  margin: 4px auto 4px auto;
+  cursor: pointer;
+}
+
+.d3{
+	/*border : 1px solid red;*/
+	margin: 10px ;
+	font-size: 20px;
+}
+p {
+	margin: 5px;
+}
+.select{
+	padding: 5px ;
+	margin: 5px ;
+}
+
+
+/* Text Field*/
+.Tfield{
+
+  	padding: 5px ;
+	margin: 10px ;
+	border: 1px solid red;
+}
+/* Canvas*/
+#myCanvas{
+	  /*margin: 15px;*/
+	  background:url("../images/ghgh.svg");
+	  background-repeat: no-repeat;
+	  
+	  background-position: fixed;
+	  background-position: 0px 0px;
+	  background-size:cover;
+}
+
+.result {
+	/*border : 1px solid red;*/
+	margin: 10px ;	
+}
+#res
+{
+  background-color: #f08000;
+  border:3px solid #b86200;
+  border-radius: 10px;
+  color: white;
+  padding: 10px 32px;
+  text-align: center;
+  text-decoration: none;
+  display:block;
+  font-size: 16px;
+  margin: 4px auto 4px auto;
+  cursor: pointer;
+
+}
+
+input::-webkit-input-placeholder {
+    font-size: 14px;
+    line-height: 3;
+}
