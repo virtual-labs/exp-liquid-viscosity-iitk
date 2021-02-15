@@ -1,13 +1,114 @@
 <!DOCTYPE html>
 <html>
-<head>
-	<!-- Add CSS at the head of HTML file -->
-    <link rel="stylesheet" href="./css/main.css">
-</head>
-<body>
-		<!-- Your code goes here-->
 
-	<!-- Add JS at the bottom of HTML file --> 
-        <script src="./js/main.js"></script>
+<head>
+
+	<link rel="stylesheet" type="text/css" href="css/vlab.css">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+	<script type="text/javascript" src="js/util.js"></script>
+	<script type="text/javascript" src="js/vlab.js"></script>
+    <script type="text/javascript" src="js/graph.ob.js"></script>
+    <script type="text/javascript" src="js/graph_line_use.ob.js"></script>
+	<title></title>
+</head>
+
+<body>
+	<div class="d1">
+		<img id="wall" src="images/ghgh.svg" alt="The Scream" style="display:none;z-index: -1;"> 
+		<img id="empty" width="10" height="28" src="images/satish.svg" alt="The Scream" style="display:none;z-index: -1;"> 
+		<img id="kero" width="10" height="28" src="images/kero.svg" alt="The Scream" style="display:none;z-index: -1;"> 
+		<img id="water" width="10" height="28" src="images/wat.svg" alt="The Scream" style="display:none;z-index: -1;"> 
+		<img id="alcohol" width="10" height="28" src="images/alc.svg" alt="The Scream" style="display:none;z-index: -1;"> 		
+		<h1><b>Measurement of Vicosity of Liquid</b></h1>
+
+		<div class=" container-fluid">
+			<div class="row">
+
+				<p id = "test"></p>
+
+				<div class="col-md-8" >
+					<canvas id="myCanvas" width="870" height="495" style="border:3px solid black;">Your browser does not
+						support
+						the HTML5 canvas tag.</canva>
+
+
+				</div>
+				<div class="col-md-4">
+					<div class="d2">
+						<button class="button" onclick="reset()">Reset</button>
+						<div class="d3">
+							<p>Select Liquid</p>
+
+							<select id="select1" onchange="selectValue1()">
+								<option value="0">--select--</option>
+								<option value="997">Water</option>
+								<option value="795">Kerosene</option>
+								<option value="803">Alcohol</option>
+							</select>
+						</div>
+
+						<div class="d3">
+							<p>Select material of ball</p>
+
+							<select id="select2" onchange="selectValue2()">
+								<option value="0">--Select--</option>
+								<option value="1602">Stone</option>
+								<option value="19300">Iron</option>
+								<option value="7874">gold</option>
+							</select>
+						</div>
+
+						<div class="d3" id ="text">
+							<p>Enter Ball Radius<span id="demo"></span></p>
+							<input type="text" id="field" placeholder="In between 10 to 35 cm" required minlength="1" maxlength="2" size="10">
+							<input type="submit" onclick="textValue()">
+						</div>
+
+						<div class="result" id ="text">
+							<button id="res">Perform Again</button>
+
+						</div>
+
+					</div>
+
+				</div>
+
+
+			</div>
+		</div>
+	</div>
+
+
+<!-- Graph and table -->
+
+		<div class="container-fluid">
+			<div class="row" style="justify-content: center;">
+				<div class="col-md-3">
+					
+	        		<div id="dataTable"  style=" margin: 10px; width: 400px;"></div>
+	      			<button class="button" onclick="drawGraph()">plot</button>
+				</div>
+				<div class="col-md-3" style="margin: 10px;">
+	   				<div id="l1" style="width:300px;height:300px;"></div>
+	   			</div>
+
+				<div class="col-md-3" style="margin: 30px; border:1px solid black;">
+						<h4><b>Steps to calculate viscosity</h4>
+					<ol>
+						<li>To calculate velocity find slop of height-time graph</li>
+						<li>Use Viscosity Formula
+							<img src="images/Formula.png">
+						</li>
+					</ol>
+
+					<h3>Enter Viscosity</h2>
+					<input type="text" id="terror" style="margin: 5px">
+					<input type="submit" value="%Error" onclick="Error()">
+				</div>
+			</div>
+		</div>
+		<div>
+	    </div>
 </body>
+
 </html>
