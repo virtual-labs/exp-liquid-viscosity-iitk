@@ -9,7 +9,7 @@ frictional force:<br><br>
 velocity v, and all the forces acting on the sphere will be in equilibrium (Fig. 1): the
 frictional force F1 which acts upwards, the buoyancy force F2 which also acts upwards
 and the downward acting gravitational force F3. The two forces F2 and F3 are given by:<br>
-<img src="images/viscosity3.PNG">
+<img src="images/viscosity3.PNG"><br>
 where 'v' can be determined by measuring the fall time 't' over a given distance 's'<br>
 In practice, equation 5 has to be corrected since the assumption that the fluid extends infinitely in all directions is unrealistic and the velocity distribution of the fluid particles relative to the surface of the sphere is affected by the finite dimensions of the fluid. For more accurate values of viscosity wall effect need to taken into account. The
 modified expression for high viscous liquids with the correction is as follows:<br><br>
