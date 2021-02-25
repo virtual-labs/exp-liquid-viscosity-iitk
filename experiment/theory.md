@@ -4,7 +4,7 @@ velocity, and the internal friction of the fluid. A measure for the internal fri
 by the dynamic viscosity η. For a sphere of radius r moving at velocity vin an infinitely
 extended fluid of dynamic viscosity η, G.G. Stokes derived an expression for the
 frictional force:<br><br>
-<img src="images/viscosity3.PNG">---(1)<br>
+<img src="images/vis1.PNG">---(1)<br>
 <br>If the sphere falls vertically in the fluid, after a time, it will move at a constant
 velocity v, and all the forces acting on the sphere will be in equilibrium (Fig. 1): the
 frictional force F1 which acts upwards, the buoyancy force F2 which also acts upwards
