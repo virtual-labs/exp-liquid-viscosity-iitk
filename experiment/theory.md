@@ -4,22 +4,12 @@ velocity, and the internal friction of the fluid. A measure for the internal fri
 by the dynamic viscosity η. For a sphere of radius r moving at velocity vin an infinitely
 extended fluid of dynamic viscosity η, G.G. Stokes derived an expression for the
 frictional force:<br><br>
-F1 = 6&Pi;&#951;rv	&nbsp;---(1)<br>
+<img src="images/viscosity3.PNG">---(1)<br>
 <br>If the sphere falls vertically in the fluid, after a time, it will move at a constant
 velocity v, and all the forces acting on the sphere will be in equilibrium (Fig. 1): the
 frictional force F1 which acts upwards, the buoyancy force F2 which also acts upwards
 and the downward acting gravitational force F3. The two forces F2 and F3 are given by:<br>
-F2 = 4*&Pi;/3 . r<sup>3</sup>. &rho;<sub>1</sub> . g&nbsp;---(2)
-
-F3 = 4*&Pi;/3 . r<sup>3</sup>. &rho;<sub>2</sub> . g &nbsp;---(3)<br><br>
-where, &rho;<sub>1</sub> = density of the fluid
-       &rho;<sub>2</sub> = density of the sphere
-                       g= gravitaional acceleration<br><br>
-   The equilibrium between these forces can be described by:<br><br>
-   F1+F2=F3 &nbsp;&nbsp;---(4)<br><br>
-   the viscosity can therefore be determined by measuring the rate of fall 'v':<br>
-   
-<img src="images/viscosity1.PNG"> --- (5)<br><br>
+<img src="images/viscosity3.PNG">
 where 'v' can be determined by measuring the fall time 't' over a given distance 's'<br>
 In practice, equation 5 has to be corrected since the assumption that the fluid extends infinitely in all directions is unrealistic and the velocity distribution of the fluid particles relative to the surface of the sphere is affected by the finite dimensions of the fluid. For more accurate values of viscosity wall effect need to taken into account. The
 modified expression for high viscous liquids with the correction is as follows:<br><br>
