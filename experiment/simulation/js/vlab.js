@@ -23,7 +23,7 @@ window.onload = function () {
 
 	this.handle =
 	{
-		x: width / 2,
+		x: 450,
 		y: height / 2,
 		radius: 10
 	};
@@ -72,7 +72,7 @@ window.onload = function () {
 				window.canvas = document.getElementById('myCanvas');
 				window.context = canvas.getContext('2d');
 
-				if (handle.x>650 && handle.x < 780 && handle.y < 80){
+				if (handle.x>630 && handle.x+35 < 710 && handle.y < 80){
 					animate();
 					stopWatch.reStart();
 				}
@@ -164,7 +164,7 @@ function drawFlask() {
 
 
 	var img = document.getElementById(window.flaskImageId);
-	context.drawImage(img, 650, 80, 150, 400);
+	context.drawImage(img, 580, 80, 150, 400);
 
 }
 

@@ -2,7 +2,7 @@
 {
 	margin: auto;
 	height: 700px;
-	width : 1400px;
+	width : 1100px;
 	border: 20px solid black ;
 	border-color: black;
 	background: #fff1e0;
@@ -19,7 +19,7 @@ h1
 	align-items:center; 
 	margin:0px 10px 10px auto;
 	height: 500px;
-	width : 360px;
+	width : 250px;
 	border: 2px solid black ;
 	background:#dde9af;
 }
@@ -92,4 +92,10 @@ p {
 input::-webkit-input-placeholder {
     font-size: 14px;
     line-height: 3;
+}
+
+#sub_button
+{
+	font-size:15px;
+	margin-top: 0px;
 }
