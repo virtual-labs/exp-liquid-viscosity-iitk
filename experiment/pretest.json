@@ -1,1 +1,19 @@
-[{"question":"The principle on which the viscosity measurement experiment based is:","answers":{"a":"Stokes’s law","b":"Reynolds’s law","c":"Ohm’s law ","d":"Coulomb’s law"},"correctAnswer":"a"},{"question":". In viscosity measurement experiment on increasing the temperature of liquid the terminal velocity of the ball:","answers":{"a":"increase","b":" decrease","c":"remains same","d":"NOT"},"correctAnswer":"a"}]
+[{
+	"question": "The principle on which the viscosity measurement experiment based is:",
+	"answers": {
+		"a": "Stokes’s law",
+		"b": "Reynolds’s law",
+		"c": "Ohm’s law ",
+		"d": "Coulomb’s law"
+	},
+	"correctAnswer": "a"
+}, {
+	"question": ". In viscosity measurement experiment on increasing the temperature of liquid the terminal velocity of the ball:",
+	"answers": {
+		"a": "increase",
+		"b": " decrease",
+		"c": "remains same",
+		"d": "NOT"
+	},
+	"correctAnswer": "a"
+}]
