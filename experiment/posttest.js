@@ -89,21 +89,45 @@
 
 
     const myQuestions = [{
-            question: "1.This is a sample question:", ///// Write the question inside double quotes
+            question: "1.On increasing the radius of the steel ball to double its value the terminal velocity of the ball become box:", ///// Write the question inside double quotes
             answers: {
-                a: "This is a sample answer A", ///// Write the option 1 inside double quotes
-                b: "This is a sample answer B", ///// Write the option 2 inside double quotes
+                a: "Double", ///// Write the option 1 inside double quotes
+                b: "four times", ///// Write the option 2 inside double quotes
+                c: "eight times", ///// Write the option 2 inside double quotes
+                d: "sixteen times", ///// Write the option 2 inside double quotes
             },
-            correctAnswer: "a" ///// Write the correct option inside double quotes
+            correctAnswer: "b" ///// Write the correct option inside double quotes
         },
 
     {
-      question: "<img src='images/8.PNG'><br>Identify the location of Secondary electron detector",  ///// Write the question inside double quotes
+      question: "On increasing density of material of the falling ball its terminal velocity:",  ///// Write the question inside double quotes
       answers: {
-        a: "<img src='images/1b.png'>",                  ///// Write the option 1 inside double quotes
-        b: "<img src='images/1a.png'>",                  ///// Write the option 2 inside double quotes
-        c: "<img src='images/1c.PNG'>",      },
-      correctAnswer: "c"                ///// Write the correct option inside double quotes
+        a: "Increase",                  ///// Write the option 1 inside double quotes
+        b: "decrease",                  ///// Write the option 2 inside double quotes
+        c: "remains same",
+        d: "NOT",
+      },
+      correctAnswer: "a"                ///// Write the correct option inside double quotes
+    },
+    {
+      question: "On increasing density of the liquid in which ball is falling (keeping other parameters same), the terminal velocity of the body will",  ///// Write the question inside double quotes
+      answers: {
+        a: "Increase",                  ///// Write the option 1 inside double quotes
+        b: "decrease",                  ///// Write the option 2 inside double quotes
+        c: "remains same",
+        d: "NOT",
+      },
+      correctAnswer: "b"                ///// Write the correct option inside double quotes
+    },
+     {
+      question: "On increasing viscosity of the liquid in which ball is falling (keeping other parameters same), the terminal velocity of the body will:",  ///// Write the question inside double quotes
+      answers: {
+        a: "Increase",                  ///// Write the option 1 inside double quotes
+        b: "decrease",                  ///// Write the option 2 inside double quotes
+        c: "remains same",
+        d: "NOT",
+      },
+      correctAnswer: "b"                ///// Write the correct option inside double quotes
     },
 
 
