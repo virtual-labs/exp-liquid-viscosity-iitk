@@ -89,21 +89,45 @@
 
 
      const myQuestions = [{
-            question: "1.This is a sample question:", ///// Write the question inside double quotes
+            question: "1.The principle on which the viscosity measurement experiment based is:", ///// Write the question inside double quotes
             answers: {
-                a: "This is a sample answer A", ///// Write the option 1 inside double quotes
-                b: "This is a sample answer B", ///// Write the option 2 inside double quotes
+                a: "Stokes’s law", ///// Write the option 1 inside double quotes
+                b: "Reynolds’s law", ///// Write the option 2 inside double quotes
+                c: "Ohm’s law", ///// Write the option 2 inside double quotes
+                d: "Coulomb’s law", ///// Write the option 2 inside double quotes
             },
             correctAnswer: "a" ///// Write the correct option inside double quotes
         },
 
     {
-      question: "<img src='images/8.PNG'><br>Identify the location of Secondary electron detector",  ///// Write the question inside double quotes
+      question: "In viscosity measurement experiment on increasing the temperature of liquid the terminal velocity of the ball:",  ///// Write the question inside double quotes
       answers: {
-        a: "<img src='images/1b.png'>",                  ///// Write the option 1 inside double quotes
-        b: "<img src='images/1a.png'>",                  ///// Write the option 2 inside double quotes
-        c: "<img src='images/1c.PNG'>",      },
-      correctAnswer: "c"                ///// Write the correct option inside double quotes
+        a: "Increase",                  ///// Write the option 1 inside double quotes
+        b: "decrease",                  ///// Write the option 2 inside double quotes
+        c: "remains same",
+        d: "NOT",
+      },
+      correctAnswer: "a"                ///// Write the correct option inside double quotes
+    },
+                          {
+      question: "When anybody inside liquid achieves terminal velocity then the net force acting on the body is:",  ///// Write the question inside double quotes
+      answers: {
+        a: "Zero",                  ///// Write the option 1 inside double quotes
+        b: "acting upwards",                  ///// Write the option 2 inside double quotes
+        c: "acting downwards",
+        d: "NOT",
+      },
+      correctAnswer: "a"                ///// Write the correct option inside double quotes
+    },
+                          {
+      question: "<The SI physical unit of viscosity is ",  ///// Write the question inside double quotes
+      answers: {
+        a: "N.s/m",                  ///// Write the option 1 inside double quotes
+        b: "Pascal-second",                  ///// Write the option 2 inside double quotes
+        c: "kg/ms<sup>2</sup>",
+        d: "NOT",
+      },
+      correctAnswer: "b"                ///// Write the correct option inside double quotes
     },
 
 
