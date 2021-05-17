@@ -3,7 +3,11 @@
 
 
 <br>
+<<<<<<< HEAD
 <b> Experiment: Finding Viscosity of Liquid by Rotating Cylinder
+=======
+<b> Experiment Finding Viscosity of Liquid by Rotating Cylinder
+>>>>>>> 9236b88f891cef9d3093213fa4b2f2b72fc16f6b
 Method  <a name="top"></a> <br>
 </p>
 

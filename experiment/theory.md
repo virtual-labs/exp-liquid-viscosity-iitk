@@ -16,7 +16,8 @@ modified expression for high viscous liquids with the correction is as follows:<
 <img src="images/viscosity2.PNG"><br>
 While Stokes’ Law is straight forward, it is subject to some limitations.Specifically, this relationship is valid only for ‘laminar’ flow. Laminar flow is defined as a condition where fluid particles move along in smooth paths in lamina (fluid layers gliding over one another). The alternate flow condition is termed ‘turbulent’ flow. This latter condition is characterized by fluid particles that move randomly in irregular paths causing an exchange of momentum between particles.<br><br>
 
-Units: The SI physical unit of viscosity is Pascal-second (Pa.s, equivalent to N.s/m2 or kg/ms). The CGS unit is poise (P). Castor oil at room temperature has a viscosity of ~ 650 cP or ~0.65N.s/m<sup>2</sup>
+Units: The SI physical unit of viscosity is Pascal-second (Pa.s, equivalent to N.s/m2 or kg/ms). The CGS unit is poise (P). Castor oil at room temperature has a viscosity of ~ 650 cP or ~0.65N.s/m<sup>2</sup>.
+
 
 
 
