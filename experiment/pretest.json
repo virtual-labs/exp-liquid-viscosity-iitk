@@ -11,9 +11,32 @@
 	"question": ". In viscosity measurement experiment on increasing the temperature of liquid the terminal velocity of the ball:",
 	"answers": {
 		"a": "increase",
-		"b": " decrease",
+		"b": "decrease",
 		"c": "remains same",
 		"d": "NOT"
 	},
 	"correctAnswer": "a"
+},
+{
+	"question": "When anybody inside liquid achieves terminal velocity then the net force acting on the body is:",
+	"answers": {
+		"a": "increase",
+		"b": "decrease",
+		"c": "remains same",
+		"d": "NOT"
+	},
+	"correctAnswer": "a"
+},
+{
+	"question": "<The SI physical unit of viscosity is ",
+	"answers": {
+		"a": "N.s/m",
+		"b": "Pascal-second",
+		"c": "kg/ms<sup>2</sup>",
+		"d": "NOT"
+	},
+	"correctAnswer": "b"
 }]
+
+
+
