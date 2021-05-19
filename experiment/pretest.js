@@ -112,12 +112,12 @@
                           {
       question: "3.When anybody inside liquid achieves terminal velocity then the net force acting on the body is:",  ///// Write the question inside double quotes
       answers: {
-        a: "Zero",                  ///// Write the option 1 inside double quotes
+        a: "acting downwards",                  ///// Write the option 1 inside double quotes
         b: "acting upwards",                  ///// Write the option 2 inside double quotes
-        c: "acting downwards",
+        c: "Zero",
         d: "NOT",
       },
-      correctAnswer: "a"                ///// Write the correct option inside double quotes
+      correctAnswer: "c"                ///// Write the correct option inside double quotes
     },
                           {
       question: "4.The SI physical unit of viscosity is ",  ///// Write the question inside double quotes
