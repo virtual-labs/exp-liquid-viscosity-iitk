@@ -100,7 +100,7 @@
         },
 
     {
-      question: "In viscosity measurement experiment on increasing the temperature of liquid the terminal velocity of the ball:",  ///// Write the question inside double quotes
+      question: "2.In viscosity measurement experiment on increasing the temperature of liquid the terminal velocity of the ball:",  ///// Write the question inside double quotes
       answers: {
         a: "Increase",                  ///// Write the option 1 inside double quotes
         b: "decrease",                  ///// Write the option 2 inside double quotes
@@ -110,7 +110,7 @@
       correctAnswer: "a"                ///// Write the correct option inside double quotes
     },
                           {
-      question: "When anybody inside liquid achieves terminal velocity then the net force acting on the body is:",  ///// Write the question inside double quotes
+      question: "3.When anybody inside liquid achieves terminal velocity then the net force acting on the body is:",  ///// Write the question inside double quotes
       answers: {
         a: "Zero",                  ///// Write the option 1 inside double quotes
         b: "acting upwards",                  ///// Write the option 2 inside double quotes
@@ -120,7 +120,7 @@
       correctAnswer: "a"                ///// Write the correct option inside double quotes
     },
                           {
-      question: "The SI physical unit of viscosity is ",  ///// Write the question inside double quotes
+      question: "4.The SI physical unit of viscosity is ",  ///// Write the question inside double quotes
       answers: {
         a: "N.s/m",                  ///// Write the option 1 inside double quotes
         b: "Pascal-second",                  ///// Write the option 2 inside double quotes
