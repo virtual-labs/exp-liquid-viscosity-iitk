@@ -89,7 +89,7 @@
 
 
     const myQuestions = [{
-            question: "1.On increasing the radius of the steel ball to double its value the terminal velocity of the ball become box:", ///// Write the question inside double quotes
+            question: "1. On increasing the radius of the steel ball to double its value the terminal velocity of the ball become box:", ///// Write the question inside double quotes
             answers: {
                 a: "Double", ///// Write the option 1 inside double quotes
                 b: "four times", ///// Write the option 2 inside double quotes
@@ -100,7 +100,7 @@
         },
 
     {
-      question: "On increasing density of material of the falling ball its terminal velocity:",  ///// Write the question inside double quotes
+      question: "2. On increasing density of material of the falling ball its terminal velocity:",  ///// Write the question inside double quotes
       answers: {
         a: "Increase",                  ///// Write the option 1 inside double quotes
         b: "decrease",                  ///// Write the option 2 inside double quotes
@@ -110,7 +110,7 @@
       correctAnswer: "a"                ///// Write the correct option inside double quotes
     },
     {
-      question: "On increasing density of the liquid in which ball is falling (keeping other parameters same), the terminal velocity of the body will",  ///// Write the question inside double quotes
+      question: "3. On increasing density of the liquid in which ball is falling (keeping other parameters same), the terminal velocity of the body will",  ///// Write the question inside double quotes
       answers: {
         a: "Increase",                  ///// Write the option 1 inside double quotes
         b: "decrease",                  ///// Write the option 2 inside double quotes
@@ -120,7 +120,7 @@
       correctAnswer: "b"                ///// Write the correct option inside double quotes
     },
      {
-      question: "On increasing viscosity of the liquid in which ball is falling (keeping other parameters same), the terminal velocity of the body will:",  ///// Write the question inside double quotes
+      question: "4. On increasing viscosity of the liquid in which ball is falling (keeping other parameters same), the terminal velocity of the body will:",  ///// Write the question inside double quotes
       answers: {
         a: "Increase",                  ///// Write the option 1 inside double quotes
         b: "decrease",                  ///// Write the option 2 inside double quotes
