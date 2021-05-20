@@ -1,1 +1,1 @@
-#Devloped by : Satish Kumar
+#simulator file
