@@ -1,0 +1,42 @@
+[{
+	"question": "1. The principle on which the viscosity measurement experiment based is:",
+	"answers": {
+		"a": "Stokes’s law",
+		"b": "Reynolds’s law",
+		"c": "Ohm’s law ",
+		"d": "Coulomb’s law"
+	},
+	"correctAnswer": "a"
+}, {
+	"question": "2. In viscosity measurement experiment on increasing the temperature of liquid the terminal velocity of the ball:",
+	"answers": {
+		"a": "increase",
+		"b": "decrease",
+		"c": "remains same",
+		"d": "NOT"
+	},
+	"correctAnswer": "a"
+},
+{
+	"question": "3. When anybody inside liquid achieves terminal velocity then the net force acting on the body is:",
+	"answers": {
+		"a": "acting upwards",
+		"b": "acting downwards",
+		"c": "Zero",
+		"d": "NOT"
+	},
+	"correctAnswer": "c"
+},
+{
+	"question": "4. The SI physical unit of viscosity is ",
+	"answers": {
+		"a": "N.s/m",
+		"b": "Pascal-second",
+		"c": "kg/ms<sup>2</sup>",
+		"d": "NOT"
+	},
+	"correctAnswer": "b"
+}]
+
+
+

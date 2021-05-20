@@ -1,0 +1,40 @@
+[{
+	"question": "1. On increasing the radius of the steel ball to double its value the terminal velocity of the ball become box:",
+	"answers": {
+		"a": " double",
+		"b": "four times",
+		"c": "eight times",
+		"d": "sixteen times"
+	},
+	"correctAnswer": "b"
+}, {
+	"question": "2. On increasing density of material of the falling ball its terminal velocity:",
+	"answers": {
+		"a": "Increases",
+		"b": "decreases",
+		"c": "remains constant",
+		"d": "NOT"
+	},
+	"correctAnswer": "a"
+}, {
+	"question": "3. On increasing density of the liquid in which ball is falling (keeping other parameters same), the terminal velocity of the body will",
+	"answers": {
+		"a": "Increases",
+		"b": "decreases",
+		"c": "remains constant",
+		"d": "NOT"
+	},
+	"correctAnswer": "b"
+}, {
+	"question": "4. On increasing viscosity of the liquid in which ball is falling (keeping other parameters same), the terminal velocity of the body will:",
+	"answers": {
+		"a": "Increases",
+		"b": "decreases",
+		"c": "remains constant",
+		"d": "NOT"
+	},
+	"correctAnswer": "b"
+}]
+
+
+      
