@@ -33,51 +33,54 @@ window.onload = function () {
 		y: handle.y
 	}
 
-	offset = {};
+	window.offset = {};
 	draw();
-	//mouse event Listener
-	if(isDrag)
-
-		{	document.body.addEventListener("mousedown", function (event) {
-				var mousCord = getMousePos(canvas, event);
-				isAnimate = true;
-				if (utils.circlePointCollision(mousCord.x, mousCord.y, handle) && isDrag) {
-					document.body.addEventListener("mousemove", onMouseMove);
-					document.body.addEventListener("mouseup", onMouseUp);
-					offset.x = mousCord.x - handle.x;
-					offset.y = mousCord.y - handle.y;
-				}
-			});
-
-			function onMouseMove(event) {
-				var mousCord = getMousePos(canvas, event);
-				handle.x = mousCord.x;// - offset.x;
-				handle.y = mousCord.y;// - offset.y;
-				draw();
-			}
-
-			function onMouseUp(event) {
-				document.body.removeEventListener("mousemove", onMouseMove);
-				document.body.removeEventListener("mouseup", onMouseUp);
-
-				window.preY = handle.y;
-				
-
-
-				//animation
-				var dx = 4;
-				var dy = 4;
-
-
-				window.canvas = document.getElementById('myCanvas');
-				window.context = canvas.getContext('2d');
-
-				if (handle.x>630 && handle.x+35 < 710 && handle.y < 80){
-					animate();
-					stopWatch.reStart();
-				}
+	var activePointerId = null;
+	canvas.addEventListener("pointerdown", function (event) {
+		if (!isDrag || activePointerId !== null || (event.pointerType === "mouse" && event.button !== 0)) {
+			return;
 		}
-}
+
+		var pointerCoords = getMousePos(canvas, event);
+		if (utils.circlePointCollision(pointerCoords.x, pointerCoords.y, handle)) {
+			event.preventDefault();
+			activePointerId = event.pointerId;
+			canvas.setPointerCapture(event.pointerId);
+			isAnimate = true;
+		}
+	});
+
+	canvas.addEventListener("pointermove", function (event) {
+		if (event.pointerId !== activePointerId) {
+			return;
+		}
+
+		event.preventDefault();
+		var pointerCoords = getMousePos(canvas, event);
+		handle.x = pointerCoords.x;
+		handle.y = pointerCoords.y;
+		draw();
+	});
+
+	canvas.addEventListener("pointerup", function (event) {
+		if (event.pointerId !== activePointerId) {
+			return;
+		}
+
+		activePointerId = null;
+		window.preY = handle.y;
+
+		if (handle.x > 630 && handle.x + 35 < 710 && handle.y < 80) {
+			animate();
+			stopWatch.reStart();
+		}
+	});
+
+	canvas.addEventListener("pointercancel", function (event) {
+		if (event.pointerId === activePointerId) {
+			activePointerId = null;
+		}
+	});
 
 createTable();
 
@@ -170,9 +173,8 @@ function drawFlask() {
 
 var getMousePos = function (canvas, e) {
 	var boundingClientRect = canvas.getBoundingClientRect();
-	var tx = e.clientX - boundingClientRect.left;
-	var ty = e.clientY - boundingClientRect.top;
-	console.log(boundingClientRect.left);
+	var tx = (e.clientX - boundingClientRect.left - canvas.clientLeft) * canvas.width / canvas.clientWidth;
+	var ty = (e.clientY - boundingClientRect.top - canvas.clientTop) * canvas.height / canvas.clientHeight;
 	return {
 		x: tx,
 		y: ty
@@ -286,14 +288,15 @@ function selectValue1() {
 }
 
 function selectValue2() {
-	if (window.lequidDensity!=0) 
-	{
-		window.ballDensity = document.getElementById("select2").value;
+	window.ballDensity = document.getElementById("select2").value;
+	if (window.ballDensity == 0) {
+		window.message2 = " ";
+		window.ballColor = "white";
+	} else {
 		window.message2 = "Ball density = " + ballDensity + " Kg per cubic meter";
 
 		if (window.ballDensity == 1602) {
 			window.ballColor = "#c9ebc3";
-
 		}
 		else if (window.ballDensity == 19300) {
 			window.ballColor = "#5e5e5e";
@@ -301,14 +304,8 @@ function selectValue2() {
 		else {
 			window.ballColor = "#baa738";
 		}
-		draw();
 	}
-	else
-	{
-		window.ballDensity = 0;
-		alert("Please select Liquid");
-
-	}
+	draw();
 }
 
 function textValue() {
@@ -393,4 +390,3 @@ function reset()
 	// draw();
 	location.reload();
 }
-
