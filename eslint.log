@@ -1,0 +1,165 @@
+
+/home/runner/work/exp-liquid-viscosity-iitk/exp-liquid-viscosity-iitk/experiment/simulation/js/graph.ob.js
+  1:745  warning  'b' is already defined  no-redeclare
+
+/home/runner/work/exp-liquid-viscosity-iitk/exp-liquid-viscosity-iitk/experiment/simulation/js/graph_line_use.ob.js
+  1:105  warning  'graphline' is defined but never used  no-unused-vars
+  1:165  warning  'CanvasJS' is not defined              no-undef
+
+/home/runner/work/exp-liquid-viscosity-iitk/exp-liquid-viscosity-iitk/experiment/simulation/js/util.js
+   40:2  warning  Mixed spaces and tabs  no-mixed-spaces-and-tabs
+   49:3  warning  Mixed spaces and tabs  no-mixed-spaces-and-tabs
+   54:3  warning  Mixed spaces and tabs  no-mixed-spaces-and-tabs
+   85:4  warning  Mixed spaces and tabs  no-mixed-spaces-and-tabs
+   86:4  warning  Mixed spaces and tabs  no-mixed-spaces-and-tabs
+   88:4  warning  Mixed spaces and tabs  no-mixed-spaces-and-tabs
+   89:4  warning  Mixed spaces and tabs  no-mixed-spaces-and-tabs
+   96:4  warning  Mixed spaces and tabs  no-mixed-spaces-and-tabs
+   97:4  warning  Mixed spaces and tabs  no-mixed-spaces-and-tabs
+   98:4  warning  Mixed spaces and tabs  no-mixed-spaces-and-tabs
+  100:4  warning  Mixed spaces and tabs  no-mixed-spaces-and-tabs
+  101:4  warning  Mixed spaces and tabs  no-mixed-spaces-and-tabs
+  102:4  warning  Mixed spaces and tabs  no-mixed-spaces-and-tabs
+
+/home/runner/work/exp-liquid-viscosity-iitk/exp-liquid-viscosity-iitk/experiment/simulation/js/vlab.js
+    9:19   warning  'canvas' is not defined                     no-undef
+   21:6    warning  'width' is assigned a value but never used  no-unused-vars
+   21:14   warning  'canvas' is not defined                     no-undef
+   22:15   warning  'canvas' is not defined                     no-undef
+   32:6    warning  'handle' is not defined                     no-undef
+   33:6    warning  'handle' is not defined                     no-undef
+   40:2    warning  'canvas' is not defined                     no-undef
+   41:8    warning  'isDrag' is not defined                     no-undef
+   45:35   warning  'canvas' is not defined                     no-undef
+   46:16   warning  'canvas' is not defined                     no-undef
+   46:37   warning  'canvas' is not defined                     no-undef
+   47:16   warning  'canvas' is not defined                     no-undef
+   47:38   warning  'canvas' is not defined                     no-undef
+   48:38   warning  'handle' is not defined                     no-undef
+   49:38   warning  'handle' is not defined                     no-undef
+   50:28   warning  'handle' is not defined                     no-undef
+   54:19   warning  'handle' is not defined                     no-undef
+   55:19   warning  'handle' is not defined                     no-undef
+   56:4    warning  'canvas' is not defined                     no-undef
+   57:4    warning  'isAnimate' is not defined                  no-undef
+   61:2    warning  'canvas' is not defined                     no-undef
+   67:35   warning  'canvas' is not defined                     no-undef
+   68:3    warning  'handle' is not defined                     no-undef
+   69:3    warning  'handle' is not defined                     no-undef
+   73:2    warning  'canvas' is not defined                     no-undef
+   79:17   warning  'handle' is not defined                     no-undef
+   81:7    warning  'handle' is not defined                     no-undef
+   81:25   warning  'handle' is not defined                     no-undef
+   81:48   warning  'handle' is not defined                     no-undef
+   84:4    warning  'stopWatch' is not defined                  no-undef
+   88:2    warning  'canvas' is not defined                     no-undef
+  101:6    warning  'isAnimate' is not defined                  no-undef
+  110:3    warning  'handle' is not defined                     no-undef
+  111:3    warning  'context' is not defined                    no-undef
+  111:27   warning  'canvas' is not defined                     no-undef
+  111:41   warning  'canvas' is not defined                     no-undef
+  113:3    warning  'context' is not defined                    no-undef
+  114:3    warning  'context' is not defined                    no-undef
+  114:15   warning  'handle' is not defined                     no-undef
+  114:25   warning  'handle' is not defined                     no-undef
+  114:35   warning  'handle' is not defined                     no-undef
+  115:3    warning  'context' is not defined                    no-undef
+  116:3    warning  'context' is not defined                    no-undef
+  117:3    warning  'context' is not defined                    no-undef
+  118:3    warning  'context' is not defined                    no-undef
+  121:7    warning  'handle' is not defined                     no-undef
+  121:25   warning  'handle' is not defined                     no-undef
+  123:4    warning  'isAnimate' is not defined                  no-undef
+  124:4    warning  'stopWatch' is not defined                  no-undef
+  125:18   warning  'stopWatch' is not defined                  no-undef
+  126:19   warning  'handle' is not defined                     no-undef
+  127:27   warning  'postY' is not defined                      no-undef
+  127:33   warning  'preY' is not defined                       no-undef
+  128:30   warning  'time' is not defined                       no-undef
+  129:4    warning  'context' is not defined                    no-undef
+  130:4    warning  'context' is not defined                    no-undef
+  131:4    warning  'context' is not defined                    no-undef
+  136:38   warning  'handle' is not defined                     no-undef
+  136:52   warning  'handle' is not defined                     no-undef
+  140:4    warning  'handle' is not defined                     no-undef
+  140:15   warning  'initial' is not defined                    no-undef
+  141:4    warning  'handle' is not defined                     no-undef
+  141:15   warning  'initial' is not defined                    no-undef
+  142:4    warning  'isDrag' is not defined                     no-undef
+  143:4    warning  'isAnimate' is not defined                  no-undef
+  144:4    warning  'stopWatch' is not defined                  no-undef
+  145:4    warning  'stopWatch' is not defined                  no-undef
+  149:4    warning  'isDrag' is not defined                     no-undef
+  154:2    warning  'stopWatch' is not defined                  no-undef
+  161:2    warning  'context' is not defined                    no-undef
+  161:26   warning  'canvas' is not defined                     no-undef
+  161:40   warning  'canvas' is not defined                     no-undef
+  162:2    warning  'context' is not defined                    no-undef
+  164:2    warning  'context' is not defined                    no-undef
+  165:2    warning  'context' is not defined                    no-undef
+  166:2    warning  'context' is not defined                    no-undef
+  167:2    warning  'context' is not defined                    no-undef
+  168:2    warning  'context' is not defined                    no-undef
+  169:2    warning  'context' is not defined                    no-undef
+  170:2    warning  'context' is not defined                    no-undef
+  171:2    warning  'stopWatch' is not defined                  no-undef
+  183:2    warning  'context' is not defined                    no-undef
+  215:9    warning  'context' is not defined                    no-undef
+  216:9    warning  'context' is not defined                    no-undef
+  217:9    warning  'context' is not defined                    no-undef
+  218:9    warning  'context' is not defined                    no-undef
+  219:9    warning  'context' is not defined                    no-undef
+  220:9    warning  'context' is not defined                    no-undef
+  221:9    warning  'context' is not defined                    no-undef
+  223:9    warning  'context' is not defined                    no-undef
+  224:9    warning  'context' is not defined                    no-undef
+  225:9    warning  'context' is not defined                    no-undef
+  227:9    warning  'context' is not defined                    no-undef
+  228:9    warning  'context' is not defined                    no-undef
+  229:9    warning  'context' is not defined                    no-undef
+  231:9    warning  'context' is not defined                    no-undef
+  232:9    warning  'context' is not defined                    no-undef
+  233:9    warning  'context' is not defined                    no-undef
+  265:2    warning  'context' is not defined                    no-undef
+  266:2    warning  'context' is not defined                    no-undef
+  267:2    warning  'context' is not defined                    no-undef
+  272:2    warning  'context' is not defined                    no-undef
+  273:2    warning  'context' is not defined                    no-undef
+  274:2    warning  'context' is not defined                    no-undef
+  279:10   warning  'selectValue1' is defined but never used    no-unused-vars
+  283:39   warning  'lequidDensity' is not defined              no-undef
+  297:10   warning  'selectValue2' is defined but never used    no-unused-vars
+  303:41   warning  'ballDensity' is not defined                no-undef
+  318:10   warning  'textValue' is defined but never used       no-unused-vars
+  335:17   warning  'drawGraph' is defined but never used       no-unused-vars
+  342:9    warning  'graphline' is not defined                  no-undef
+  352:10   warning  'i' is not defined                          no-undef
+  352:17   warning  'i' is not defined                          no-undef
+  352:25   warning  'i' is not defined                          no-undef
+  353:29   warning  'i' is not defined                          no-undef
+  353:55   warning  'i' is not defined                          no-undef
+  353:102  warning  'i' is not defined                          no-undef
+  361:11   warning  'Error' is defined but never used           no-unused-vars
+  363:1    warning  Mixed spaces and tabs                       no-mixed-spaces-and-tabs
+  364:1    warning  Mixed spaces and tabs                       no-mixed-spaces-and-tabs
+  364:35   warning  'visc' is not defined                       no-undef
+  364:41   warning  'visc' is not defined                       no-undef
+  365:1    warning  Mixed spaces and tabs                       no-mixed-spaces-and-tabs
+  366:1    warning  Mixed spaces and tabs                       no-mixed-spaces-and-tabs
+  367:1    warning  Mixed spaces and tabs                       no-mixed-spaces-and-tabs
+  368:1    warning  Mixed spaces and tabs                       no-mixed-spaces-and-tabs
+  369:1    warning  Mixed spaces and tabs                       no-mixed-spaces-and-tabs
+  370:1    warning  Mixed spaces and tabs                       no-mixed-spaces-and-tabs
+  371:1    warning  Mixed spaces and tabs                       no-mixed-spaces-and-tabs
+  372:1    warning  Mixed spaces and tabs                       no-mixed-spaces-and-tabs
+  373:1    warning  Mixed spaces and tabs                       no-mixed-spaces-and-tabs
+  374:1    warning  Mixed spaces and tabs                       no-mixed-spaces-and-tabs
+  375:1    warning  Mixed spaces and tabs                       no-mixed-spaces-and-tabs
+  376:1    warning  Mixed spaces and tabs                       no-mixed-spaces-and-tabs
+  377:1    warning  Mixed spaces and tabs                       no-mixed-spaces-and-tabs
+  378:1    warning  Mixed spaces and tabs                       no-mixed-spaces-and-tabs
+  379:1    warning  Mixed spaces and tabs                       no-mixed-spaces-and-tabs
+  382:10   warning  'reset' is defined but never used           no-unused-vars
+
+✖ 154 problems (0 errors, 154 warnings)
+

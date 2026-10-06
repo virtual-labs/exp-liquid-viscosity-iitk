@@ -1,0 +1,272 @@
+body {
+	overflow-x: hidden;
+}
+
+img {
+	max-width: 100%;
+	height: auto;
+}
+
+.d1
+{
+	margin: 20px auto;
+	height: auto;
+	width: min(1100px, 95%);
+	border: 20px solid black;
+	border-color: black;
+	background: #fff1e0;
+	padding: 15px 10px 20px;
+	box-sizing: border-box;
+}
+
+h1
+{
+	text-align: center;
+	font-size: clamp(1.6rem, 3vw, 2.5rem);
+	margin: 0 0 15px;
+}
+
+.d2
+{
+	align-items: center;
+	margin: 0 auto 10px;
+	height: auto;
+	width: min(250px, 100%);
+	border: 2px solid black;
+	background: #dde9af;
+	padding: 10px 8px;
+	box-sizing: border-box;
+}
+.button {
+  background-color: #4CAF50;
+  border:3px solid #0f6b13;
+  border-radius: 10px;
+  color: white;
+  padding: 7px 25px;
+  text-align: center;
+  text-decoration: none;
+  display:block;
+  font-size: 16px;
+  margin: 4px auto 4px auto;
+  cursor: pointer;
+}
+
+.d3{
+	margin: 10px 0;
+	font-size: 20px;
+}
+p {
+	margin: 5px;
+}
+.select,
+select,
+input[type="text"],
+input[type="submit"] {
+	width: 100%;
+	max-width: 100%;
+	box-sizing: border-box;
+}
+
+select {
+	min-height: 44px;
+	padding: 8px;
+	font-size: 16px;
+	touch-action: manipulation;
+	cursor: pointer;
+}
+
+.select{
+	padding: 5px;
+	margin: 5px;
+}
+
+
+/* Text Field*/
+.Tfield{
+	padding: 5px;
+	margin: 10px;
+	border: 1px solid red;
+}
+/* Canvas*/
+#myCanvas{
+	background:url("../images/ghgh.svg");
+	background-repeat: no-repeat;
+	background-position: 0px 0px;
+	background-size: cover;
+	display: block;
+	width: 100%;
+	height: auto;
+	max-width: 100%;
+	border:3px solid black;
+	touch-action: none;
+	user-select: none;
+}
+
+.result {
+	margin: 10px 0;
+}
+#res
+{
+  background-color: #f08000;
+  border:3px solid #b86200;
+  border-radius: 10px;
+  color: white;
+  padding: 10px 32px;
+  text-align: center;
+  text-decoration: none;
+  display:block;
+  font-size: 16px;
+  margin: 4px auto 4px auto;
+  cursor: pointer;
+
+}
+
+input::-webkit-input-placeholder {
+    font-size: 14px;
+    line-height: 3;
+}
+
+#sub_button
+{
+	font-size:15px;
+	margin-top: 0px;
+}
+
+.results-container {
+	padding-bottom: 20px;
+}
+
+.results-container > .row {
+	display: flex;
+	flex-wrap: wrap;
+	align-items: stretch;
+}
+
+.results-container [class*="col-md-"] {
+	display: flex;
+	margin-bottom: 16px;
+}
+
+.results-card {
+	width: 100%;
+	min-width: 0;
+	padding: 16px;
+	border: 1px solid #b8c3a0;
+	border-radius: 8px;
+	background: #fff;
+	box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+	box-sizing: border-box;
+}
+
+.data-panel #dataTable table {
+	width: 100%;
+	table-layout: fixed;
+	border-collapse: collapse;
+}
+
+.data-panel #dataTable h3 {
+	margin-top: 0;
+}
+
+.data-panel #dataTable th,
+.data-panel #dataTable td {
+	padding: 5px;
+	border: 1px solid #d9dece;
+}
+
+.data-panel #dataTable th {
+	background: #f2f6e9;
+}
+
+.data-panel #dataTable input,
+.formula-panel #terror {
+	width: 100%;
+	min-width: 0;
+	box-sizing: border-box;
+}
+
+.data-panel .button {
+	margin-top: 12px;
+}
+
+.graph-panel {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	overflow: hidden;
+}
+
+.graph-panel #l1 {
+	max-width: 100%;
+}
+
+.formula-panel h4 {
+	margin-top: 0;
+}
+
+.formula-panel li {
+	margin-bottom: 8px;
+}
+
+.formula-panel img {
+	vertical-align: middle;
+}
+
+.formula-panel input[type="submit"] {
+	margin-top: 8px;
+}
+
+@media (max-width: 991px) {
+	.col-md-8,
+	.col-md-4,
+	.col-md-3 {
+		width: 100%;
+		float: none;
+	}
+
+	.d1 .col-md-4 {
+		margin-top: 12px;
+	}
+
+	.results-container > .row {
+		display: block;
+	}
+
+	.results-container [class*="col-md-"] {
+		display: block;
+	}
+
+	#myCanvas {
+		margin: 0 auto;
+	}
+
+	#l1 {
+		width: 100% !important;
+		height: 300px !important;
+		max-width: 100%;
+	}
+}
+
+@media (max-width: 767px) {
+	.d1 {
+		width: 96%;
+		border-width: 8px;
+		padding: 10px 8px 15px;
+	}
+
+	.d2 {
+		width: 100%;
+		max-width: none;
+	}
+
+	.button,
+	#res {
+		width: 100%;
+		padding: 10px 12px;
+	}
+
+	#field {
+		max-width: 100%;
+	}
+
+}
