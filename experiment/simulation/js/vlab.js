@@ -36,15 +36,23 @@ window.onload = function () {
 	window.offset = {};
 	draw();
 	var activePointerId = null;
+	var dragOffset = { x: 0, y: 0 };
 	canvas.addEventListener("pointerdown", function (event) {
 		if (!isDrag || activePointerId !== null || (event.pointerType === "mouse" && event.button !== 0)) {
 			return;
 		}
 
 		var pointerCoords = getMousePos(canvas, event);
-		if (utils.circlePointCollision(pointerCoords.x, pointerCoords.y, handle)) {
+		var scaleX = canvas.clientWidth / canvas.width;
+		var scaleY = canvas.clientHeight / canvas.height;
+		var distanceX = (pointerCoords.x - handle.x) * scaleX;
+		var distanceY = (pointerCoords.y - handle.y) * scaleY;
+		var hitRadius = Math.max(handle.radius * Math.min(scaleX, scaleY), 24);
+		if (Math.sqrt(distanceX * distanceX + distanceY * distanceY) <= hitRadius) {
 			event.preventDefault();
 			activePointerId = event.pointerId;
+			dragOffset.x = handle.x - pointerCoords.x;
+			dragOffset.y = handle.y - pointerCoords.y;
 			canvas.setPointerCapture(event.pointerId);
 			isAnimate = true;
 		}
@@ -57,8 +65,8 @@ window.onload = function () {
 
 		event.preventDefault();
 		var pointerCoords = getMousePos(canvas, event);
-		handle.x = pointerCoords.x;
-		handle.y = pointerCoords.y;
+		handle.x = pointerCoords.x + dragOffset.x;
+		handle.y = pointerCoords.y + dragOffset.y;
 		draw();
 	});
 
