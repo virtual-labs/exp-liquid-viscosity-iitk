@@ -2,7 +2,8 @@
 <html>
 
 <head>
-
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<link rel="stylesheet" type="text/css" href="css/vlab.css">
 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
 	<script type="text/javascript" src="js/util.js"></script>
@@ -60,7 +61,7 @@
 
 						<div class="d3" id ="text">
 							<p>Enter Ball Radius<span id="demo"></span></p>
-							<input type="text" id="field" placeholder="In between 10 to 35 cm" required minlength="1" maxlength="2" size="10">
+							<input type="number" id="field" placeholder="10 to 35 cm" required min="10" max="35" step="1" inputmode="numeric">
 							<input type="submit" onclick="textValue()" id="sub_button">
 						</div>
 
@@ -81,19 +82,24 @@
 
 <!-- Graph and table -->
 
-		<div class="container-fluid">
-			<div class="row" style="justify-content: center;">
-				<div class="col-md-3">
+		<div class="container-fluid results-container">
+			<div class="row">
+				<div class="col-md-4">
 					
-	        		<div id="dataTable"  style=" margin: 10px; width: 400px;"></div>
+	        		<div class="results-card data-panel">
+						<div id="dataTable"></div>
 	      			<button class="button" onclick="drawGraph()">plot</button>
+					</div>
 				</div>
-				<div class="col-md-3" style="margin: 10px;">
+				<div class="col-md-4">
+					<div class="results-card graph-panel">
 	   				<div id="l1" style="width:300px;height:300px;"></div>
+					</div>
 	   			</div>
 
-				<div class="col-md-3" style="margin: 30px; border:1px solid black;">
-						<h4><b>Steps to calculate viscosity</h4>
+				<div class="col-md-4">
+					<div class="results-card formula-panel">
+						<h4><b>Steps to calculate viscosity</b></h4>
 					<ol>
 						<li>To calculate velocity find slop of height-time graph</li>
 						<li>Use Viscosity Formula
@@ -101,9 +107,10 @@
 						</li>
 					</ol>
 
-					<h3>Enter Viscosity</h2>
-					<input type="text" id="terror" style="margin: 5px">
+					<h3>Enter Viscosity</h3>
+					<input type="text" id="terror">
 					<input type="submit" value="%Error" onclick="Error()">
+					</div>
 				</div>
 			</div>
 		</div>
